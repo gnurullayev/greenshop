@@ -1,0 +1,89 @@
+.trend_flover {
+    padding-top: 94px;
+    padding-bottom: 38px;
+}
+
+.trend_flower_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend_flower_box {
+    position: relative;
+    width: 100%;
+    max-width: 586px;
+    min-height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 37px;
+    background:  #FBFBFB;
+    background-image: url("../../assets/bg-trend.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box_img {
+    position: absolute;
+}
+
+.box_img1 {
+    left: 0;
+    bottom: 10px;
+    width: 292px;
+    height: 292px;
+}
+
+.box_img2 {
+    left: 0;
+    bottom: 8px;
+    width: 287px;
+    height: 287px;
+}
+
+.img {
+   background: transparent;
+}
+
+.box_title {
+    margin-bottom: 9px;
+    margin-left: auto;
+    max-width: 175px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #3D3D3D;
+}
+
+.box_desc {
+    max-height: 45px;
+    max-width: 292px;
+    margin-left: auto;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #727272;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.active {
+    max-height: 100%;
+}
+
+.btn {
+    margin-left: auto;
+    padding: 11px 27px 9px 28px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow_box {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+

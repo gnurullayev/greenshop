@@ -1,0 +1,234 @@
+.footer {
+    padding-bottom: 13px;
+}
+
+.footer_start {
+    padding: 25px 25px 24px 23px;
+    background-color: #FBFBFB;
+}
+
+.start_list {
+    display: grid;
+    grid-template-columns: 238px 258px 274px 380px;
+}
+
+.start_item {
+    width: 100%;
+}
+
+.start_item:nth-child(1) {
+    position: relative;
+    z-index: 1;
+}
+
+.start_item:nth-child(2) {
+    position: relative;
+    padding-left: 27px;
+}
+
+.start_item:nth-child(2)::before,
+.start_item:nth-child(1)::before {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    z-index: 2;
+    width: 1px;
+    height: 187px;
+    background-color: rgba(70, 163, 89, 0.1);
+    content: "";
+}
+
+
+.start_item:nth-child(3) {
+    padding-left: 35px;
+}
+
+.start_item:nth-child(4) {
+}
+
+.card_img {
+    margin-bottom: 15px;
+}
+
+.cart_title {
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.card_desc {
+    max-width: 190px;
+}
+
+.searc_question {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.group {
+    display: flex;
+    margin-bottom: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+
+.search_input {
+    width: 100%;
+    padding: 12px 11px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.search_btn {
+    padding: 12px 23px 12px 26px;
+    border-radius: 0px 6px 6px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #46A358;
+    border: 0;
+    cursor: pointer;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+.footer_middle {
+    padding: 25px 0 19px 23px;
+    background-color: rgba(70, 163, 89, 0.1);
+}
+
+.middle_list {
+    display: grid;
+    grid-template-columns: 238px 258px 274px 380px;
+}
+
+.middle_item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+} 
+
+.middle_item:nth-child(2) {
+    padding-left: 25px;
+} 
+
+.middle_item:nth-child(3) {
+    padding-left: 28px;
+} 
+.middle_item:nth-child(2)::before,
+.middle_item:nth-child(3)::before,
+.middle_item:nth-child(4)::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+}
+
+.middle_item:nth-child(2)::before {
+    width: 13px;
+    height: 15px;
+    background-image: url("../../assets/Location.svg");
+}
+
+.middle_item:nth-child(3)::before {
+    width: 15px;
+    height: 16px;
+    background-image: url("../../assets/Message.svg");
+}
+
+.middle_item:nth-child(4)::before {
+    left: -27px;
+    width: 16.16px;
+    height: 16.04px;
+    background-image: url("../../assets/Calling.svg");
+}
+
+.middle_item_span {
+    width: 100%;
+    display: inline-block;
+    max-width: 176px;
+}
+
+.end_list {
+    display: grid;
+    grid-template-columns: 238px 258px 274px 380px;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    padding: 33px 25px 29px 23px;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+
+.end_item:nth-child(2) {
+    padding-left: 25px;
+} 
+
+.end_item:nth-child(3) {
+    padding-left: 28px;
+} 
+
+.title {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.link {
+    display: inline-block;
+    line-height: 30px;
+    color: #3D3D3D;
+}
+
+.media_list {
+    padding-top: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.media_item {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 33px;
+    padding-top: 3px;
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    border-radius: 4px;
+    transition: all 0.3s linear;
+}
+
+.media_item:hover {
+    background-color: rgba(70, 163, 88, 0.2);
+}
+
+.media_link {
+    display: inline-block;  
+}
+
+.accept {
+    margin-bottom: 13px;
+}
+
+.about {
+    text-align: center;
+}
+

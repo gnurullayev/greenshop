@@ -1,0 +1,83 @@
+.header {
+    padding-top: 25px;
+    /* padding-bottom: 0; */
+    /* border: 1px solid red; */
+}
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.list_item {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    left: -230px;
+    z-index: 1;
+    width: 0;
+    opacity: 0;
+    padding: 8px 5px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1.5px solid #46A358;
+    transition: all 0.3s linear;
+}
+
+.active {
+    width: 230px;
+    opacity: 1;
+}
+
+.search_btn {
+    z-index: 2;
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.basket_btn {
+    position: relative;
+}
+
+.bascet_count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #46A358;
+    border: 2px solid #FFFFFF;
+}
+
+.logout_btn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+

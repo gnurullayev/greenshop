@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727272;
+}
+
+.container {
+  width: 100%;
+  max-width: 1251px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.swiper {
+  width: 100%;
+  min-height: 450px;
+}
+
+.swiper-slide {
+
+}
+
+.btn {
+  color: #FFFFFF;
+  background: #46A358;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  background: #46a359b4;
+}

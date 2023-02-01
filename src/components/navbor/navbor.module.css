@@ -1,0 +1,21 @@
+.navbor_list {
+    display: flex;
+    gap: 50px;
+}
+
+.navbor_link {
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D3D3D;
+}
+
+.active {
+    padding-bottom: 37px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D3D3D;
+    border-bottom: 3px solid green;
+}
